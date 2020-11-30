@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cash Wars: A two player connect 4 game</title>
+    <link rel="stylesheet" href="stylesheets/game_style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+
+
+    
+
+</head>
+
+<body>
+    <main>
+        <section id="clock" onload="startTimer()">00:00</section>
+        <section class="board">
+            <div id="col1" class="column">
+                <div id="1" class="coins"></div>
+                <div id="2" class="coins"></div>
+                <div id="3" class="coins"></div>
+                <div id="4" class="coins"></div>
+                <div id="5" class="coins"></div>
+                <div id="6" class="coins"></div>
+            </div>
+            <div id="col2" class="column">
+                <div id="7" class="coins"></div>
+                <div id="8" class="coins"></div>
+                <div id="9" class="coins"></div>
+                <div id="10" class="coins"></div>
+                <div id="11" class="coins"></div>
+                <div id="12" class="coins"></div>
+            </div>
+            <div id="col3" class="column">
+                <div id="13" class="coins"></div>
+                <div id="14" class="coins"></div>
+                <div id="15" class="coins"></div>
+                <div id="16" class="coins"></div>
+                <div id="17" class="coins"></div>
+                <div id="18" class="coins"></div>
+            </div>
+            <div id="col4" class="column">
+                <div id="19" class="coins"></div>
+                <div id="20" class="coins"></div>
+                <div id="21" class="coins"></div>
+                <div id="22" class="coins"></div>
+                <div id="23" class="coins"></div>
+                <div id="24" class="coins"></div>
+            </div>
+            <div id="col5" class="column">
+                <div id="25" class="coins"></div>
+                <div id="26" class="coins"></div>
+                <div id="27" class="coins"></div>
+                <div id="28" class="coins"></div>
+                <div id="29" class="coins"></div>
+                <div id="30" class="coins"></div>
+            </div>
+            <div id="col6" class="column">
+                <div id="31" class="coins"></div>
+                <div id="32" class="coins"></div>
+                <div id="33" class="coins"></div>
+                <div id="34" class="coins"></div>
+                <div id="35" class="coins"></div>
+                <div id="36" class="coins"></div>
+            </div>
+            <div id="col7" class="column">
+                <div id="37" class="coins"></div>
+                <div id="38" class="coins"></div>
+                <div id="39" class="coins"></div>
+                <div id="40" class="coins"></div>
+                <div id="41" class="coins"></div>
+                <div id="42" class="coins"></div>
+            </div>
+        </section>
+        <section id="turn">Your turn</section>
+    </main>
+
+    <script>
+
+        
+
+
+        $("column").click(function () {
+
+            document.getElementById("col1").style.backgroundColor = "blue";
+        })
+
+
+
+    </script>
+
+
+
+    <script src="javascripts/gameplay.js"></script>
+</body>
+
+
+</html>

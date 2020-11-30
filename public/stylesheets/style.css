@@ -1,0 +1,53 @@
+body {
+  text-decoration: none;
+  padding: 50px;
+}
+
+h1 {
+  
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+h1::before {
+  content: " ";
+  width: 50px;
+  height: 50px;
+  background: url(https://static.thenounproject.com/png/3034861-200.png);
+      background-size: auto;
+  display: inline-block;
+  background-size: 50px;
+}
+
+h1::after {
+  content: " ";
+  width: 50px;
+  height: 50px;
+  background: url(https://static.thenounproject.com/png/3034861-200.png);
+      background-size: auto;
+  display: inline-block;
+  background-size: 50px;
+}
+
+.buttons button{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: #2a95bf;
+  color:white;
+  size: 15px;
+}
+
+.buttons button:hover{
+  background-color:lightskyblue;
+}
+
+.buttons button:active{
+  color:black;
+}
+
+.stats{
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+a {
+  color: #00B7FF;
+}
